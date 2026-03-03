@@ -1,136 +1,138 @@
 {
     "Header": {
-
-        "title": "Hola soy tu landig",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-
+        "title": "Transforma tu Negocio con Soluciones Digitales",
+        "paragraph": "Impulsamos empresas hacia el futuro con tecnología innovadora, diseño estratégico y resultados medibles. Tu éxito es nuestra misión."
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Somos un equipo de profesionales apasionados por la transformación digital. Con más de 10 años de experiencia, ayudamos a empresas de todos los tamaños a alcanzar sus objetivos a través de soluciones tecnológicas personalizadas. Nuestro enfoque combina innovación, calidad y un profundo compromiso con el éxito de nuestros clientes.",
         "Why": [
-            "Lorem ipsum",
-            "Exercitation ullamco",
-            "Lorem ipsum",
-            "Exercitation ullamco"
+            "Experiencia comprobada en proyectos exitosos",
+            "Equipo multidisciplinario altamente calificado",
+            "Metodologías ágiles y eficientes",
+            "Soporte continuo y actualizaciones constantes"
         ],
         "Why2": [
-            "Lorem ipsum",
-            "Exercitation ullamco",
-            "Lorem ipsum",
-            "Exercitation ullamco"
+            "Soluciones escalables y sostenibles",
+            "Enfoque centrado en resultados medibles",
+            "Tecnología de vanguardia",
+            "Transparencia y comunicación fluida"
         ]
     },
-    "Services": [{
-            "icon": "fa fa-desktop",
-            "name": "Nombre del servicio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    "Services": [
+        {
+            "icon": "FaCode",
+            "name": "Desarrollo Web",
+            "text": "Creamos sitios web modernos, responsivos y optimizados que impulsan tu presencia digital y convierten visitantes en clientes."
         },
         {
-            "icon": "fa fa-desktop",
-            "name": "Nombre del servicio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "FaMobileAlt",
+            "name": "Aplicaciones Móviles",
+            "text": "Desarrollamos aplicaciones nativas e híbridas con experiencias de usuario excepcionales para iOS y Android."
         },
         {
-            "icon": "fa fa-desktop",
-            "name": "Nombre del servicio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "FaCloud",
+            "name": "Soluciones Cloud",
+            "text": "Migramos y optimizamos tu infraestructura en la nube para mayor escalabilidad, seguridad y reducción de costos."
         },
         {
-            "icon": "fa fa-desktop",
-            "name": "Nombre del servicio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "FaChartLine",
+            "name": "Marketing Digital",
+            "text": "Estrategias integrales de marketing digital que aumentan tu visibilidad, engagement y conversiones online."
         },
         {
-            "icon": "fa fa-desktop",
-            "name": "Nombre del servicio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "icon": "FaPaintBrush",
+            "name": "Diseño UX/UI",
+            "text": "Diseñamos interfaces intuitivas y atractivas que mejoran la experiencia del usuario y fortalecen tu marca."
         },
         {
-            "icon": "fa fa-desktop",
-            "name": "Nombre del servicio",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        }
-
-
-    ],
-    "Testimonials": [{
-            "img": "img/testimonials/01.png",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Nombre"
-        },
-        {
-            "img": "img/testimonials/01.png",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Nombre"
-        },
-        {
-            "img": "img/testimonials/01.png",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Nombre"
-        },
-        {
-            "img": "img/testimonials/01.png",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Nombre"
-        },
-        {
-            "img": "img/testimonials/01.png",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Nombre"
-        },
-        {
-            "img": "img/testimonials/01.png",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Nombre"
+            "icon": "FaShieldAlt",
+            "name": "Ciberseguridad",
+            "text": "Protegemos tu negocio con soluciones de seguridad avanzadas, auditorías y monitoreo continuo de amenazas."
         }
     ],
-    "Team": [{
-            "img": "img/team/01.png",
-            "name": "Nombre completo",
-            "job": "Cargo"
+    "Testimonials": [
+        {
+            "img": "img/testimonials/01.png",
+            "text": "Trabajar con este equipo fue una experiencia excepcional. Lograron entender perfectamente nuestra visión y la convirtieron en una realidad que superó nuestras expectativas.",
+            "name": "María González"
         },
         {
-            "img": "img/team/01.png",
-            "name": "Nombre completo",
-            "job": "Cargo"
-        }, {
-            "img": "img/team/01.png",
-            "name": "Nombre completo",
-            "job": "Cargo"
+            "img": "img/testimonials/02.png",
+            "text": "La profesionalidad y calidad de trabajo son impresionantes. Nuestro sitio web ha aumentado las conversiones en un 150% desde el lanzamiento. Altamente recomendados.",
+            "name": "Carlos Mendoza"
         },
         {
+            "img": "img/testimonials/03.png",
+            "text": "Excelente comunicación durante todo el proyecto. Siempre disponibles para resolver dudas y hacer ajustes. El resultado final es simplemente perfecto.",
+            "name": "Ana Rodríguez"
+        },
+        {
+            "img": "img/testimonials/04.png",
+            "text": "Transformaron completamente nuestra presencia digital. La aplicación móvil que desarrollaron es intuitiva, rápida y nuestros usuarios la aman.",
+            "name": "Roberto Silva"
+        },
+        {
+            "img": "img/testimonials/05.png",
+            "text": "Un equipo increíblemente talentoso. No solo entregaron un producto excelente, sino que también nos educaron en mejores prácticas digitales.",
+            "name": "Laura Martínez"
+        },
+        {
+            "img": "img/testimonials/06.png",
+            "text": "La mejor inversión que hemos hecho para nuestro negocio. ROI positivo desde el primer mes. Seguiremos trabajando con ellos en futuros proyectos.",
+            "name": "Diego Fernández"
+        }
+    ],
+    "Team": [
+        {
             "img": "img/team/01.png",
-            "name": "Nombre completo",
-            "job": "Cargo"
+            "name": "Alejandro Torres",
+            "job": "CEO & Fundador"
+        },
+        {
+            "img": "img/team/02.png",
+            "name": "Sofía Ramírez",
+            "job": "CTO & Arquitecta de Software"
+        },
+        {
+            "img": "img/team/03.png",
+            "name": "Daniel Castro",
+            "job": "Director de Diseño"
+        },
+        {
+            "img": "img/team/04.png",
+            "name": "Valentina López",
+            "job": "Directora de Marketing"
         }
     ],
     "Contact": {
-        "address": "Villavicencia Colombia ",
-        "phone": "+57 317 635 84 91",
-        "email": "info@Loremipsum.com",
+        "address": "Bogotá, Colombia",
+        "phone": "+57 312 000 00 00",
+        "email": "info@empresa.com",
         "facebook": "https://www.facebook.com",
-        "twitter": "https://twitter.com/?lang=es",
-        "youtube": "https://www.youtube.com"
+        "twitter": "https://twitter.com",
+        "linkedin": "https://www.linkedin.com",
+        "instagram": "https://www.instagram.com"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "Features": [
+        {
+            "icon": "FaRocket",
+            "title": "Rapidez y Eficiencia",
+            "text": "Entregamos proyectos de alta calidad en tiempos óptimos sin comprometer la excelencia ni los detalles."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "FaUsers",
+            "title": "Equipo Experto",
+            "text": "Profesionales certificados con experiencia internacional en las últimas tecnologías y tendencias del mercado."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "FaChartLine",
+            "title": "Resultados Medibles",
+            "text": "Nos enfocamos en métricas reales y KPIs que demuestran el impacto positivo en tu negocio."
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "FaHandshake",
+            "title": "Soporte Continuo",
+            "text": "Acompañamiento constante después del lanzamiento con actualizaciones, mantenimiento y mejoras continuas."
         }
     ]
 }

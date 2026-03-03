@@ -1,70 +1,204 @@
-# Getting Started with Create React App
+# React Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Landing page profesional y moderna construida con React, Tailwind CSS y las mejores prácticas de desarrollo.
 
-## Available Scripts
+## ✨ Características
 
-In the project directory, you can run:
+- **Diseño Moderno**: Interfaz limpia y profesional con Tailwind CSS
+- **Modo Claro/Oscuro**: Sistema de temas con persistencia en localStorage
+- **Responsive**: Diseño adaptable para todos los dispositivos
+- **Animaciones CSS**: Transiciones suaves y animaciones optimizadas con Tailwind
+- **Imágenes Dinámicas**: Integración con Pexels API para contenido visual
+- **Galería con Lightbox**: Vista previa de imágenes en pantalla completa
+- **Formulario de Contacto**: Con validación y manejo de estados
+- **Clean Code**: Código limpio, organizado y bien documentado
+- **Performance Optimizado**: Lazy loading, code splitting y caché inteligente
 
-### `yarn start`
+## 🛠️ Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 16.13.1** - Biblioteca de UI
+- **Tailwind CSS 3.4.1** - Framework de estilos utility-first con animaciones CSS personalizadas
+- **React Icons** - Iconografía moderna
+- **Axios** - Cliente HTTP
+- **React Image Lightbox** - Galería de imágenes
+- **Pexels API** - Imágenes y videos de alta calidad
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📦 Instalación
 
-### `yarn test`
+1. **Verificar versión de Node**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Si usas nvm (Node Version Manager)
+nvm use 16.20.2
 
-### `yarn build`
+# O verifica que tengas la versión correcta
+node --version  # Debe mostrar v16.20.2
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Clonar el repositorio**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/EfeDeveloper/LandingPageReact.git
+cd LandingPageReact
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Instalar dependencias**
 
-### `yarn eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. **Configurar variables de entorno**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Copiar el archivo de ejemplo
+cp .env.example .env
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Editar .env y agregar tu Pexels API key
+# Api key gratis en: https://www.pexels.com/api/
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. **Iniciar el servidor de desarrollo**
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+La aplicación se abrirá en [http://localhost:3000](http://localhost:3000)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📜 Scripts Disponibles
 
-### Code Splitting
+### `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ejecuta la aplicación en modo desarrollo.
+La página se recargará automáticamente al hacer cambios.
 
-### Analyzing the Bundle Size
+### `npm run build`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Construye la aplicación para producción en la carpeta `build`.
+Optimiza el build para mejor performance.
 
-### Making a Progressive Web App
+### `npm test`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Ejecuta los tests en modo watch.
 
-### Advanced Configuration
+## 🎨 Personalización
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Cambiar Contenido
 
-### Deployment
+Edita el archivo `src/data/data.json` para personalizar el contenido de tu landing page:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Header**: Título y descripción principal
+- **Features**: Características destacadas (4 items)
+- **About**: Información sobre tu empresa/proyecto
+- **Services**: Servicios que ofreces (6 items)
+- **Team**: Miembros del equipo (4 items)
+- **Testimonials**: Testimonios de clientes (6 items)
+- **Contact**: Información de contacto y redes sociales
 
-### `yarn build` fails to minify
+### Cambiar Colores
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Modifica `tailwind.config.js` para personalizar la paleta de colores:
+
+```javascript
+theme: {
+  extend: {
+    colors: {
+      primary: {
+        500: '#TU_COLOR_AQUI',
+        // ...
+      }
+    }
+  }
+}
+```
+
+### Cambiar Fuentes
+
+1. Importa tu fuente en `public/index.html`
+2. Actualiza `tailwind.config.js`:
+
+```javascript
+fontFamily: {
+  sans: ['Tu Fuente', 'system-ui', 'sans-serif'],
+}
+```
+
+## 🌐 Configuración de Pexels API
+
+1. Registrarse en [Pexels](https://www.pexels.com/api/)
+2. Obtener tu API key gratuita
+3. Agregarla al archivo `.env`:
+
+```bash
+REACT_APP_PEXELS_API_KEY=tu_api_key_aqui
+```
+
+### Personalizar Búsquedas de Imágenes
+
+Edita `src/utils/constants.js` para cambiar las queries de búsqueda:
+
+```javascript
+export const PEXELS_QUERIES = {
+  hero: 'tu búsqueda aquí',
+  about: 'tu búsqueda aquí',
+  // ...
+};
+```
+
+## 📁 Estructura del Proyecto
+
+```
+src/
+├── components/         # Componentes React
+│   ├── navigation.jsx
+│   ├── header.jsx
+│   ├── features.jsx
+│   ├── about.jsx
+│   ├── services.jsx
+│   ├── gallery.jsx
+│   ├── testimonials.jsx
+│   ├── Team.jsx
+│   ├── contact.jsx
+│   └── footer.jsx
+├── contexts/          # Context API (Theme)
+│   └── ThemeContext.jsx
+├── services/          # Lógica de API
+│   ├── pexels.js
+│   └── content.js
+├── hooks/             # Custom Hooks
+│   └── useScrollSpy.js
+├── utils/             # Utilidades y constantes
+│   └── constants.js
+├── data/              # Datos estáticos
+│   └── data.json
+├── App.jsx            # Componente principal
+├── index.css          # Estilos globales (Tailwind)
+└── index.js           # Punto de entrada
+```
+
+## 🚀 Deployment
+
+> **Importante**: Este proyecto requiere **Node.js 16.20.2**. Las plataformas de deployment detectan automáticamente esta versión desde los archivos `.nvmrc`, `.node-version` y el campo `engines` en `package.json`.
+
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor:
+
+1. Fork del proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para detalles
+
+## 👨‍💻 Autor
+
+**Edwin Villa** - [@EfeDeveloper](https://github.com/EfeDeveloper)
+
+---
+
+⭐ Si te gustó este proyecto, por favor dale una estrella en GitHub!
