@@ -52,54 +52,54 @@
     ],
     "Testimonials": [
         {
-            "img": "img/testimonials/01.png",
+            "img": "https://i.pravatar.cc/150?img=1",
             "text": "Trabajar con este equipo fue una experiencia excepcional. Lograron entender perfectamente nuestra visión y la convirtieron en una realidad que superó nuestras expectativas.",
             "name": "María González"
         },
         {
-            "img": "img/testimonials/02.png",
+            "img": "https://i.pravatar.cc/150?img=2",
             "text": "La profesionalidad y calidad de trabajo son impresionantes. Nuestro sitio web ha aumentado las conversiones en un 150% desde el lanzamiento. Altamente recomendados.",
             "name": "Carlos Mendoza"
         },
         {
-            "img": "img/testimonials/03.png",
+            "img": "https://i.pravatar.cc/150?img=3",
             "text": "Excelente comunicación durante todo el proyecto. Siempre disponibles para resolver dudas y hacer ajustes. El resultado final es simplemente perfecto.",
             "name": "Ana Rodríguez"
         },
         {
-            "img": "img/testimonials/04.png",
+            "img": "https://i.pravatar.cc/150?img=4",
             "text": "Transformaron completamente nuestra presencia digital. La aplicación móvil que desarrollaron es intuitiva, rápida y nuestros usuarios la aman.",
             "name": "Roberto Silva"
         },
         {
-            "img": "img/testimonials/05.png",
+            "img": "https://i.pravatar.cc/150?img=5",
             "text": "Un equipo increíblemente talentoso. No solo entregaron un producto excelente, sino que también nos educaron en mejores prácticas digitales.",
             "name": "Laura Martínez"
         },
         {
-            "img": "img/testimonials/06.png",
+            "img": "https://i.pravatar.cc/150?img=6",
             "text": "La mejor inversión que hemos hecho para nuestro negocio. ROI positivo desde el primer mes. Seguiremos trabajando con ellos en futuros proyectos.",
             "name": "Diego Fernández"
         }
     ],
     "Team": [
         {
-            "img": "img/team/01.png",
+            "img": "https://i.pravatar.cc/300?img=11",
             "name": "Alejandro Torres",
             "job": "CEO & Fundador"
         },
         {
-            "img": "img/team/02.png",
+            "img": "https://i.pravatar.cc/300?img=12",
             "name": "Sofía Ramírez",
             "job": "CTO & Arquitecta de Software"
         },
         {
-            "img": "img/team/03.png",
+            "img": "https://i.pravatar.cc/300?img=13",
             "name": "Daniel Castro",
             "job": "Director de Diseño"
         },
         {
-            "img": "img/team/04.png",
+            "img": "https://i.pravatar.cc/300?img=14",
             "name": "Valentina López",
             "job": "Directora de Marketing"
         }

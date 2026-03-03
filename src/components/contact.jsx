@@ -47,8 +47,9 @@ const Contact = ({ data }) => {
     }
 
     setFormStatus('sending');
+    console.log('Enviando mensaje:', formData);
 
-    // Simular envío (en producción, conectar con backend o servicio como EmailJS)
+    // Simular envío de formulario
     setTimeout(() => {
       setFormStatus('success');
       setFormData({ name: '', email: '', message: '' });
