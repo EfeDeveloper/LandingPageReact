@@ -29,10 +29,10 @@ Landing page profesional y moderna construida con React, Tailwind CSS y las mejo
 
 ```bash
 # Si usas nvm (Node Version Manager)
-nvm use 16.20.2
+nvm use 18.18.0
 
 # O verifica que tengas la versión correcta
-node --version  # Debe mostrar v16.20.2
+node --version  # Debe mostrar v18.18.0
 ```
 
 2. **Clonar el repositorio**
@@ -179,7 +179,7 @@ src/
 
 ## 🚀 Deployment
 
-> **Importante**: Este proyecto requiere **Node.js 16.20.2**. Las plataformas de deployment detectan automáticamente esta versión desde los archivos `.nvmrc`, `.node-version` y el campo `engines` en `package.json`.
+> **Importante**: Este proyecto requiere **Node.js 18.18.0**. Las plataformas de deployment detectan automáticamente esta versión desde los archivos `.nvmrc`, `.node-version` y el campo `engines` en `package.json`.
 
 ## 🤝 Contribuciones
 
