@@ -39,27 +39,27 @@ const Team = ({ data }) => {
 
                     {/* Social Media Overlay */}
                     <div className="absolute inset-0 flex justify-center items-center gap-4 bg-primary-600/90 dark:bg-primary-700/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <a
-                        href="#"
-                        className="flex justify-center items-center bg-white dark:bg-gray-800 rounded-full w-10 h-10 text-primary-600 dark:text-primary-400 hover:scale-110 transition-transform"
+                      <button
+                        type="button"
+                        className="flex justify-center items-center bg-white dark:bg-gray-800 rounded-full w-10 h-10 text-primary-600 dark:text-primary-400 hover:scale-110 transition-transform cursor-pointer"
                         aria-label="LinkedIn"
                       >
                         <FaLinkedin className="w-5 h-5" />
-                      </a>
-                      <a
-                        href="#"
-                        className="flex justify-center items-center bg-white dark:bg-gray-800 rounded-full w-10 h-10 text-primary-600 dark:text-primary-400 hover:scale-110 transition-transform"
+                      </button>
+                      <button
+                        type="button"
+                        className="flex justify-center items-center bg-white dark:bg-gray-800 rounded-full w-10 h-10 text-primary-600 dark:text-primary-400 hover:scale-110 transition-transform cursor-pointer"
                         aria-label="Twitter"
                       >
                         <FaTwitter className="w-5 h-5" />
-                      </a>
-                      <a
-                        href="#"
-                        className="flex justify-center items-center bg-white dark:bg-gray-800 rounded-full w-10 h-10 text-primary-600 dark:text-primary-400 hover:scale-110 transition-transform"
+                      </button>
+                      <button
+                        type="button"
+                        className="flex justify-center items-center bg-white dark:bg-gray-800 rounded-full w-10 h-10 text-primary-600 dark:text-primary-400 hover:scale-110 transition-transform cursor-pointer"
                         aria-label="GitHub"
                       >
                         <FaGithub className="w-5 h-5" />
-                      </a>
+                      </button>
                     </div>
                   </div>
 
