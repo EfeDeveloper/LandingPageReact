@@ -84,22 +84,18 @@
     ],
     "Team": [
         {
-            "img": "https://i.pravatar.cc/300?img=11",
             "name": "Alejandro Torres",
             "job": "CEO & Fundador"
         },
         {
-            "img": "https://i.pravatar.cc/300?img=12",
-            "name": "Sofía Ramírez",
-            "job": "CTO & Arquitecta de Software"
-        },
-        {
-            "img": "https://i.pravatar.cc/300?img=13",
             "name": "Daniel Castro",
             "job": "Director de Diseño"
         },
         {
-            "img": "https://i.pravatar.cc/300?img=14",
+            "name": "Sofía Ramírez",
+            "job": "CTO & Arquitecta de Software"
+        },
+        {
             "name": "Valentina López",
             "job": "Directora de Marketing"
         }
